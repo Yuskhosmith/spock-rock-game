@@ -1,5 +1,5 @@
 # Rock Paper Scissors Lizard Spock
-Enjoy the Explanation from [Sheldon himself](https://www.youtube.com/watch?v=405Nh2H4Ucg){:target="_blank"}. But here it is
+Enjoy the Explanation from [Sheldon himself](https://www.youtube.com/watch?v=405Nh2H4Ucg). But here it is
 | Name | Defeats |
 | ----- | ----- |
 | Rock | Scissors, Lizard |
@@ -8,8 +8,11 @@ Enjoy the Explanation from [Sheldon himself](https://www.youtube.com/watch?v=405
 | Lizard | Paper, Spock |
 | Spock | Scissors, Rock |
 
+[Live Site](https://yuskhosmith.github.io/spock-rock-game/)
+
 ## .New 🚀
 ES6 Modules - Bundles - Tree Shaking
+
 So, just like modules in every other language but with specificity and an export statement for tree shaking (filtering out things you don't need).
 
 You'll need to add the attribute `type="module"` to your script tag in your HTML file.
@@ -18,7 +21,7 @@ You'll need to add the attribute `type="module"` to your script tag in your HTML
 ```
 At the end of the module, you'll have an export statement like this.
 ```js
-  export { startConfetti, stopConfetti, removeConfetti };
+export { startConfetti, stopConfetti, removeConfetti };
 ```
 
 At the top of your main JS file, your import statement will look like this
